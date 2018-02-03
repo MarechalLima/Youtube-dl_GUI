@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <stdio.h>
 #include <QMessageBox>
+#include "dialog.hpp"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -43,4 +44,10 @@ void MainWindow::on_pushButton_clicked()
         QMessageBox::information(this, tr("Completed"), tr("Your download is done!"));
         exit(0);
     }
+}
+
+void MainWindow::on_actionOpen_list_triggered()
+{
+	Dialog *w = new Dialog;
+	w->show ();
 }

@@ -18,11 +18,11 @@ public:
 private slots:
     void on_actionExit_triggered();
 
-    void on_pushButton_2_clicked();
-
     void on_pushButton_clicked();
 
-private:
+    void on_actionOpen_list_triggered();
+
+	private:
     Ui::MainWindow *ui;
 };
 

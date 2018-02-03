@@ -66,6 +66,9 @@ color: rgb(0, 0, 0);</string>
     <property name="text">
      <string>Download</string>
     </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
    </widget>
    <widget class="QRadioButton" name="mp3">
     <property name="geometry">
@@ -125,7 +128,7 @@ color: rgb(0, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>663</width>
-     <height>28</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuOpen">
